@@ -11,7 +11,11 @@ public class Archer extends Infantry {
     public Archer() {
     }
 
-    public Archer(InfantryType infantryType, Integer movementSpeed, Integer durability, Integer attack, Integer range) {
+    public Archer(InfantryType infantryType,
+                  Integer movementSpeed,
+                  Integer durability,
+                  Integer attack,
+                  Integer range) {
         super(infantryType, movementSpeed, durability, attack);
         this.range = range;
     }

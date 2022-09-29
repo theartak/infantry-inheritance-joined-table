@@ -11,7 +11,11 @@ public class Knight extends Infantry {
     public Knight() {
     }
 
-    public Knight(InfantryType infantryType, Integer movementSpeed, Integer durability, Integer attack, Boolean shield) {
+    public Knight(InfantryType infantryType,
+                  Integer movementSpeed,
+                  Integer durability,
+                  Integer attack,
+                  Boolean shield) {
         super(infantryType, movementSpeed, durability, attack);
         this.shield = shield;
     }

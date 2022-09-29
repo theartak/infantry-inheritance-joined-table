@@ -23,8 +23,16 @@ public class InfantryInheritanceJoinedTableApplication {
         InfantryRepository knightRepository =
                 configurableApplicationContext.getBean(KnightRepository.class);
 
-        Infantry archer = new Archer(InfantryType.LIGHT, 300, 500, 100, 1000);
-        Infantry knight = new Knight(InfantryType.HEAVY, 280, 1000, 300, true);
+        Infantry archer = new Archer(InfantryType.LIGHT,
+                300,
+                500,
+                100,
+                1000);
+        Infantry knight = new Knight(InfantryType.HEAVY,
+                280,
+                1000,
+                300,
+                true);
 
         archerRepository.save(archer);
         knightRepository.save(knight);

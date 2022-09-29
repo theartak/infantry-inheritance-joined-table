@@ -25,7 +25,10 @@ public abstract class Infantry {
 
     }
 
-    protected Infantry(InfantryType infantryType, Integer movementSpeed, Integer durability, Integer attack) {
+    protected Infantry(InfantryType infantryType,
+                       Integer movementSpeed,
+                       Integer durability,
+                       Integer attack) {
         this.infantryType = infantryType;
         this.movementSpeed = movementSpeed;
         this.durability = durability;
